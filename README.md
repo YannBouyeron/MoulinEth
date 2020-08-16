@@ -5,8 +5,6 @@ Unstoppable Ethereum Mixer 100% Decentralized 0% Fee 100% Free
 Tester sur Ropsten: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
 
-<h1 align=center>MoulinEth</h1>
-<h4 align=center>FAQ</h4>
 
 
 ### Comment participer à un round ?
