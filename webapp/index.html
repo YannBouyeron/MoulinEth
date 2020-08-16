@@ -1,0 +1,116 @@
+<!doctype html>
+
+
+<html>
+	
+	<head>
+		
+		<meta http-equiv="content-Type" content="text/html; charset=iso-8859-1" />
+		
+		<title>MoulinEth</title>
+		
+		
+		
+		<style type="text/css">
+		
+		@IMPORT URL("style.css")
+	
+		</style>
+	
+	
+		
+		<script src="/js/web3.min.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	
+		<script>
+
+		web3 = new Web3(web3.currentProvider);
+
+		if (web3.version.network != '3') {
+
+			alert("Wrong network detected. Please switch to the Ropsten test network.");
+		}
+	
+		else {
+
+			alert("Connected to the Ropsten test network.");
+		}
+		
+		</script>
+
+		<script src="contract.js"></script>
+
+
+	
+
+</head>
+
+
+
+
+<body class="grid">
+
+
+
+<div class="header">
+
+	<h1 class="mtop">MoulinEth</h1>
+
+	<h4>Unstoppable Ethereum mixer</h4>
+
+	<h5>100% Decentralized , 0% Fee , 100% Free</h5>
+
+	<div align=center>
+	<a href="MoulinEth.pdf" class="bf_button"><span>Tutorial</span></a>
+	<a href="https://github.com/YannBouyeron/MoulinEth.git" class="bf_button"><span>Github Sources</span></a>
+	</div>
+	    
+
+</div>
+
+
+
+<div id="bf" class="bouton_fonction"></div>
+
+
+
+<div id="rounds_titre" class="rounds_titre">
+
+	<div class="ligne">
+
+			<div class="ligne_element">ID</div>
+
+			<div class="ligne_element">Bonus Fee</div>
+
+			<div class="ligne_element">Input</div>
+			
+			<div class="ligne_element">Output</div>
+			
+			<div class="ligne_element"></div>
+			
+			<div class="ligne_element"></div>
+	
+	</div>
+	
+
+
+	
+</div>
+
+
+
+<div id="rounds" class="rounds"></div>
+
+
+
+
+
+
+
+
+<script src="moul.js"></script>
+
+</body>
+
+</html>
