@@ -8,7 +8,7 @@ Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 16/08/2020): https://ipfs.io/ipfs/QmPTcZ8pLQpuHcwQfxxvYUvj1yzw1XHNHgTB4ytx5YAPN1
+Lien IPFS (dapp version 16/08/2020): https://ipfs.io/ipfs/QmbEx8m28pnxzAgY4Efe4iScXWqqgpJdHehYsm2q3gSRh9
 
 
 
@@ -120,13 +120,13 @@ Les sources du smart contract et de la dapp sont disponibles sur github: https:/
 - **Cette dapp est donc totalement "unstoppable" !**
 
 
-### Ce service est-Il légal ?
+### Ce service est-il légal ?
 
 - J’espère bien.
 
 - Il est en revanche strictement interdit d’utiliser cette dapp ou son smart contract à des fins illégales.
 
-### Pourquoi ce service est il gratuit ?
+### Pourquoi ce service est-il gratuit ?
 
 - Parceque je n’ai pas passé beaucoup de temps à le développer.
 
