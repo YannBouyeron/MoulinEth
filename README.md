@@ -8,13 +8,12 @@ Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 16/08/2020): https://ipfs.io/ipfs/QmbEx8m28pnxzAgY4Efe4iScXWqqgpJdHehYsm2q3gSRh9
-
+Lien IPFS (dapp version 17/08/2020): https://ipfs.io/ipfs/QmSqR1EjRPw4PwURGPeePituuxA3edB27huLc4U45xL7UM
 
 
 ### Comment participer à un round ?
 
-- Vérifiez qu’un round est actif. Dans le cas contraire, cliquez sur **init Round**.
+- Vérifiez qu’un round est actif. Dans le cas contraire, cliquez sur **Init Round**.
 
 - Utilisez votre adresse Ethereum de dépôt pour déposer les Ether que vous souhaitez mixer: indiquez le montant en wei que vous souhaitez mixer, puis cliquez sur **Send**.
 
@@ -26,11 +25,11 @@ Lien IPFS (dapp version 16/08/2020): https://ipfs.io/ipfs/QmbEx8m28pnxzAgY4Efe4i
 
 - Vous pouvez faire votre ou vos demandes de retraits avant de faire votre ou vos dépôts à condition de faire les dépôts et les retraits dans le même round et avant la fin du round et de veiller à ce que la somme des cautions de retraits soit égale (ou inférieure) à la somme des dépôts.
 
-- À la fin du round et après sa vérification, si le total des demandes de retraits est égal au total des dépôts vous pourrez récupérer votre dépôt et votre caution de retrait avec votre **adresse de retrait**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Withdraw**. 
+- À la fin du round et après sa vérification, si le total des demandes de retraits est égal au total des dépôts vous pourrez récupérer votre dépôt et votre caution de retrait avec votre (ou vos) **adresse de retrait**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Withdraw**. 
 	
-- À la fin du round et après sa vérification, si le total des demandes de retraits est inférieur au total des dépôts, le montant non réclamé sera partagé (bonus) entre les participants; vous pourrez récupérer votre dépôt, votre retrait et votre bonus avec votre **adresse de retrait**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Withdraw**. 
+- À la fin du round et après sa vérification, si le total des demandes de retraits est inférieur au total des dépôts, le montant non réclamé sera partagé (bonus) entre les participants; vous pourrez récupérer votre dépôt, votre retrait et votre bonus avec votre (ou vos) **adresse de retrait**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Withdraw**. 
 
-- À la fin du round et après sa vérification si le total des demandes de retraits est supérieur au total des dépôts, le round est renversé , un ou plusieurs participants ont essayé de récupérer des Ether qu’ils n’avaient pas déposés, ils perdent leurs cautions qui seront partagées (bonus) entre les autres participants. Vous pourrez récupérer votre  dépôt , votre caution et votre bonus en utilisant votre **adresse de dépôts**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Backdraw**. Vos Ether n’ont pas été mixés, mais le bonus vous dédommage en partie !
+- À la fin du round et après sa vérification si le total des demandes de retraits est supérieur au total des dépôts, le round est renversé , un ou plusieurs participants ont essayé de récupérer des Ether qu’ils n’avaient pas déposés, ils perdent leurs cautions qui seront partagées (bonus) entre les autres participants. Vous pourrez récupérer votre  dépôt , votre caution et votre bonus en utilisant votre (ou vos) **adresse de dépôts**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Backdraw**. Vos Ether n’ont pas été mixés, mais le bonus vous dédommage en partie !
 	
 	
 	
@@ -44,7 +43,7 @@ Lien IPFS (dapp version 16/08/2020): https://ipfs.io/ipfs/QmbEx8m28pnxzAgY4Efe4i
 
 ### Pourquoi et comment vérifier un round ?
 
-Lors de la vérification du round, le smart contract Ethereum compare le total des dépôts au total des cautions de retraits afin de décider si le round est validé ou renversé. Si les deux montants ne sont pas égaux, le smart contract calcule le bonus qui sera partagé entre les participants.
+Lors de la vérification du round, le smart contract Ethereum compare le total des dépôts au total des cautions de retraits afin de décider si le round est validé ou renversé. Si les deux montants ne sont pas égaux, le smart contract calcule le bonus qui sera partagé entre les participants. Pour vérifier un round inactif (si il n’a pas déjà été vérifié), cliquez sur **Check Round**.
 
 ### Peut-on faire une demande de retrait (en versant une caution) sans avoir fait de dépôt ?
 
@@ -118,18 +117,3 @@ Les sources du smart contract et de la dapp sont disponibles sur github: https:/
 - L’application web est hébergée sur IPFS. L’IPFS ou InterPlanetary File System est un protocole pair à pair (p2p) de distribution de contenu adressable par hypermédia. Il permet de "stocker" des fichiers ou des arborescences de fichiers de manière décentralisée et permanente, et d’y accéder via un noeud ipfs ou via un navigateur web.
 
 - **Cette dapp est donc totalement "unstoppable" !**
-
-
-### Ce service est-il légal ?
-
-- J’espère bien.
-
-- Il est en revanche strictement interdit d’utiliser cette dapp ou son smart contract à des fins illégales.
-
-### Pourquoi ce service est-il gratuit ?
-
-- Parceque je n’ai pas passé beaucoup de temps à le développer.
-
-- Parceque je récupère 5% des bonus
-
-- Parceque, pour des raisons de confiance vis à vis des utilisateurs,  j’ai fait le choix de rendre cette dapp et son smart contract libres ("open source") ce qui d’après les termes de la licence AGPL V3 autorise (sous certaines conditions) n’importe qui à copier , améliorer , déployer cette dapp au risque de me faire de la concurrence.
