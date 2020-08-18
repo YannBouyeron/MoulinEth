@@ -13,13 +13,6 @@ Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmYM4LuKep4k9o2f3YWkuu
 
 
 
-
-<h1 align=center>MoulinEth</h1>
-<h4 align=center>FAQ</h4>
-
-
-
-
 ### Comment participer à un round ?
 
 - Vérifiez qu’un round est actif. Dans le cas contraire, cliquez sur **Init Round**.
