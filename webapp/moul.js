@@ -120,7 +120,7 @@ eve.get(function(err, result) {
 			if (fin[i] > timestamp) {
 
 			
-				var h = "<h1>Active Round</h1><p>Round ID: " + i + "</p><p>End: " + date + "</p><p>Deposit: " + depot[i]*10**-18 + " Ether</p><p>Request: " + request[i]*10**-18 + " Ether</p> <p>Bonus fee: " + fee[i]*10**-18 + " Eth</p><form name='DEP' id='DEP' class=''><input type='text' name='amount' id='amount' placeholder='20000000000'></br></br><input type='button' class='bf_button' onClick='deposer("+i+")' value='Deposit'><input type='button' class='bf_button' onClick='requester("+i+")' value='Request'><input type='button' class='bf_button' onClick='feesend("+i+")' value='Add fee'> </form>"
+				var h = "<h1>Active Round</h1><p>Round ID: " + i + "</p><p>End: " + date + "</p><p>Deposit: " + depot[i]*10**-18 + " Ether</p><p>Request: " + request[i]*10**-18 + " Ether</p> <p>Bonus fee: " + fee[i]*10**-18 + " Eth</p><form name='DEP' id='DEP' class=''><input type='text' name='amount' id='amount' placeholder='20000000000'></br></br><input type='button' class='bf_button' onClick='deposer("+i+")' value='Deposit'><input type='button' class='bf_button' onClick='requester("+i+")' value='Request'><input type='button' class='bf_button' onClick='feesend("+i+")' value='Add Fee'> </form>"
 
 		
 				document.getElementById("bf").innerHTML = h;

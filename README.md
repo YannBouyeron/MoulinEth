@@ -8,7 +8,7 @@ Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSNViCnhxPHhU9MicojYtQbzP7u2QtLktgZ47VuEtQB8A
+Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSK1rtivan73iqFuaG2J66PujLabTD7TEC28gXmiSXePW
 
 
 
@@ -45,8 +45,8 @@ Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSNViCnhxPHhU9MicojYt
 
 - À la fin du round et après sa vérification si le total des cautions de retraits est supérieur au total des dépôts, le round est renversé , un ou plusieurs participants ont essayé de récupérer des Ether qu’ils n’avaient pas déposés, ils perdent leurs cautions qui seront partagées (bonus) entre les autres participants. Vous pourrez récupérer votre  dépôt , votre caution de retrait et votre bonus en utilisant votre (ou vos) **adresse de dépôts**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Backdraw**. Vos Ether n’ont pas été mixés, mais le bonus vous dédommage en partie !
 	
-	
-	
+
+
 ### Comment mon adresse de retrait peut-elle être "anonyme", si je dois déjà posséder des Ether dessus afin de verser la caution ?
 
 - Créez une nouvelle adresse Ethereum.
@@ -56,6 +56,25 @@ Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSNViCnhxPHhU9MicojYt
 - Faites des rounds avec des montants de plus en plus importants pour disposer de suffisamment d’Ether "anonymes"... ce qui vous permettra de mixer de plus en plus d’Ether.
 
 - Faites attention à ce que votre adresse de retrait n’ait aucun lien (transaction directe ou indirecte) avec votre adresse de dépôt.
+
+
+### Quel est l’intérêt de faire une demande de retrait avec une caution inférieure au dépôt ?
+
+Vous pouvez faire une demande de retrait avec une caution légèrement inférieure (ou davantage si vous êtes généreux !) à votre dépôt. Cela augment l’efficacité du mixage et la probabilité que le round soit validé.
+
+Si le round est validé: 
+
+- La différence entre votre dépôt et votre caution constitue un bonus qui sera partagé entre tous les participants (y compris vous)
+
+- Vous récupérerez à l’issue du round votre caution multiplié par 2, plus le bonus.
+
+- Vous perdez donc un peu d’Ether , sauf si de nombreux utilisateurs font de même en versant eux aussi une caution inférieure à leur dépôt.
+
+Si le round est malgré tout renversé:
+
+- Vous récupérerez à l’issue du round votre dépôt multiplié par 2, plus le bonus. 
+
+- Vous gagnez donc un peu d’Ether.
 
 ### Pourquoi et comment vérifier un round ?
 
@@ -86,9 +105,6 @@ Vérifiez que:
 
 
 
-### Je n’ai pas fait de demande de retrait dans la limite de temps du round !
-
-C’est vraiment dommage pour vous, mais votre dépôt est définitivement perdu, sauf si le round est renversé, auquel cas vous gagnerez le double de votre dépôt.
 
 ### Je ne parviens pas à retirer mes Ethers !
 
@@ -100,14 +116,17 @@ Vérifiez que:
 
 - Vous utilisez la bonne adresse: adresse de retrait en cas de Withdraw (round validé), adresse de dépôt en cas de Backdraw (round renversé).
 
+</br>
+
+### Je n’ai pas fait de demande de retrait dans la limite de temps du round !
+
+C’est vraiment dommage pour vous, mais votre dépôt est définitivement perdu, sauf si le round est renversé, auquel cas vous gagnerez le double de votre dépôt.
 
 ### A quoi servent les bonus et le bouton «Send Fee» ?
 
 Les bonus correspondent aux dépôts non réclamés (dans le cas d’un round validé) ou aux cautions de retraits excédentaires (dans le cas d’un round renversé) ; ils sont partagés entre les participants du round lors du Withdraw ou du Backdraw. Leurs montants (total des montants avant partage) ne sont connus qu’après la vérification du round.
 
-Les bonus fee que n’importe qui peut verser en cliquant sur **Send Fee** sont des incitations à participer au round. Ces bonus fee seront partagés entre les participants du round lors du Withdraw ou du Backdraw. En incitant à participer au round , il y’aura davantage de participants ce qui augmentera l’efficacité mixage.
-
-Les bonus fee (total des bonus fee avant partage) sont connus et affichés au cours du round actif au fur et à mesure de leurs versements.
+Les bonus fee que n’importe qui peut verser en cliquant sur **Send Fee** sont des incitations à participer au round. Ces bonus fee seront partagés entre les participants du round lors du Withdraw ou du Backdraw. En incitant à participer au round , il y’aura davantage de participants ce qui augmentera l’efficacité mixage. Les bonus fee (total des bonus fee avant partage) sont connus et affichés au cours du round actif au fur et à mesure de leurs versements.
 
 
 ### J’ai reçu davantage d’Ether que ce que j’ai versé ! Est-ce normal ?
@@ -131,9 +150,7 @@ Via un noeud ipfs:
 
 Adresse du smart contract Ethereum (Version de test sur Ropsten): 
 
-- 0xE2F2EF747d41204b3492AB342A48307857C07e77
-
-- [Lien Etherscan Ropsten du smart contract](https://ropsten.etherscan.io/address/0xe2f2ef747d41204b3492ab342a48307857c07e77)
+- [0xE2F2EF747d41204b3492AB342A48307857C07e77](https://ropsten.etherscan.io/address/0xe2f2ef747d41204b3492ab342a48307857c07e77)
 
 Adresse du smart contract Ethereum (Mainnet): 
 
