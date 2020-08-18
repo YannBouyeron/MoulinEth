@@ -120,7 +120,7 @@ eve.get(function(err, result) {
 			if (fin[i] > timestamp) {
 
 			
-				var h = "<h1>Active Round</h1><p>Round ID: " + i + "</p><p>End: " + date + "</p><p>Input: " + depot[i]*10**-18 + " Ether</p><p>Output: " + request[i]*10**-18 + " Ether</p> <p>Bonus fee: " + fee[i]*10**-18 + " Eth</p><form name='DEP' id='DEP' class=''><input type='text' name='amount' id='amount' placeholder='20000000000'></br></br><input type='button' class='bf_button' onClick='deposer("+i+")' value='Send'><input type='button' class='bf_button' onClick='requester("+i+")' value='Request'><input type='button' class='bf_button' onClick='feesend("+i+")' value='Add fee'> </form>"
+				var h = "<h1>Active Round</h1><p>Round ID: " + i + "</p><p>End: " + date + "</p><p>Deposit: " + depot[i]*10**-18 + " Ether</p><p>Request: " + request[i]*10**-18 + " Ether</p> <p>Bonus fee: " + fee[i]*10**-18 + " Eth</p><form name='DEP' id='DEP' class=''><input type='text' name='amount' id='amount' placeholder='20000000000'></br></br><input type='button' class='bf_button' onClick='deposer("+i+")' value='Send'><input type='button' class='bf_button' onClick='requester("+i+")' value='Request'><input type='button' class='bf_button' onClick='feesend("+i+")' value='Add fee'> </form>"
 
 		
 				document.getElementById("bf").innerHTML = h;
@@ -133,7 +133,7 @@ eve.get(function(err, result) {
 			
 				if (!(i in verif)) {
 
-					var h = "<h1>Inactive Round</h1><p>Round ID: " + i + "</p><p>End: " + date + "</p><p>Input: " + depot[i]*10**-18 + " Ether</p><p>Output: " + request[i]*10**-18 + " Ether</p><p>Bonus fee: " + fee[i]*10**-18 + " Eth</p><p>This round is not checked at this time.</p><form><input type='button' class='bf_button' onClick='verifier(" + i + ")' value='Check Round'><input type='button' class='bf_button' onClick='verifier(" + i + ")' value='Init Round'></form>";
+					var h = "<h1>Inactive Round</h1><p>Round ID: " + i + "</p><p>End: " + date + "</p><p>Deposit: " + depot[i]*10**-18 + " Ether</p><p>Request: " + request[i]*10**-18 + " Ether</p><p>Bonus fee: " + fee[i]*10**-18 + " Eth</p><p>This round is not checked at this time.</p><form><input type='button' class='bf_button' onClick='verifier(" + i + ")' value='Check Round'><input type='button' class='bf_button' onClick='verifier(" + i + ")' value='Init Round'></form>";
 
 					document.getElementById("bf").innerHTML = h;
 				};
