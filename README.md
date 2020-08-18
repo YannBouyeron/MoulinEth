@@ -8,7 +8,7 @@ Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmdwATg95mFU5qchw6e3uR7fACVZ35NspauG1AkpEJva3S
+Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSNViCnhxPHhU9MicojYtQbzP7u2QtLktgZ47VuEtQB8A
 
 
 
