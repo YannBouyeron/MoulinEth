@@ -8,7 +8,7 @@ Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmYM4LuKep4k9o2f3YWkuuUJJp7UjXyH9cCVY7MB7iyYTc
+Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmdwATg95mFU5qchw6e3uR7fACVZ35NspauG1AkpEJva3S
 
 
 
@@ -17,7 +17,7 @@ Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmYM4LuKep4k9o2f3YWkuu
 
 - Vérifiez qu’un round est actif. Dans le cas contraire, cliquez sur **Init Round**.
 
-- Utilisez votre adresse Ethereum de dépôt pour déposer les Ether que vous souhaitez mixer: indiquez le montant en wei que vous souhaitez mixer, puis cliquez sur **Send**.
+- Utilisez votre adresse Ethereum de dépôt pour déposer les Ether que vous souhaitez mixer: indiquez le montant en wei que vous souhaitez mixer, puis cliquez sur **Deposit**.
 
 - Notez bien l’ID du round auquel vous avez participé, et prenez connaissance de la date et de l’heure  à laquelle se termine le round.
 
