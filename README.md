@@ -8,8 +8,14 @@ Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 17/08/2020): https://ipfs.io/ipfs/Qme7DteZMb1HwacQqygh4SCzLoiXMcgdkZrAgUX8daGYNv
+Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmYM4LuKep4k9o2f3YWkuuUJJp7UjXyH9cCVY7MB7iyYTc
 
+
+
+
+
+<h1 align=center>MoulinEth</h1>
+<h4 align=center>FAQ</h4>
 
 
 
@@ -34,11 +40,11 @@ Lien IPFS (dapp version 17/08/2020): https://ipfs.io/ipfs/Qme7DteZMb1HwacQqygh4S
 	- Adresse de retrait 2 réclame 0,3 Ether en versant une caution de 0,3 Ether 
 	- Adresse de retrait 3 réclame 0,05 Ether en versant une caution de 0,05 Ether
 
-- ⚠️ Vous ne pouvez pas utiliser une même adresse pour un dépôt et un retrait dans le même round.
+- ⚠️ Vous ne pouvez pas utiliser une même adresse pour un dépôt et une demande de retrait dans le même round.
 
 - ⚠️ La somme des cautions de retraits doit être égale (ou inférieure) à la somme des dépôts, sinon le round risque d’être renversé.
 
-- Vous pouvez faire votre ou vos demandes de retraits avant de faire votre ou vos dépôts à condition de faire les dépôts et les retraits dans le même round et avant la fin du round.
+- Vous pouvez faire votre ou vos demandes de retraits avant de faire votre ou vos dépôts à condition de faire les dépôts et les demandes de retraits dans le même round et avant la fin du round.
 
 - À la fin du round et après sa vérification, si le total des cautions de retraits est égal au total des dépôts vous pourrez récupérer votre dépôt et votre caution de retrait en utilisant votre (ou vos) **adresse de retrait**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Withdraw**. 
 	
@@ -104,11 +110,11 @@ Vérifiez que:
 
 ### A quoi servent les bonus et le bouton «Send Fee» ?
 
-Les bonus correspondent aux dépôts non réclamés (dans le cas d’un round validé) ou aux cautions de retraits excédentaires (dans le cas d’un round renversé) ; ils sont partagés entre les participants du round lors du Withdraw ou du Backdraw. Leurs montants ne sont connus qu’après la vérification du round.
+Les bonus correspondent aux dépôts non réclamés (dans le cas d’un round validé) ou aux cautions de retraits excédentaires (dans le cas d’un round renversé) ; ils sont partagés entre les participants du round lors du Withdraw ou du Backdraw. Leurs montants (total des montants avant partage) ne sont connus qu’après la vérification du round.
 
 Les bonus fee que n’importe qui peut verser en cliquant sur **Send Fee** sont des incitations à participer au round. Ces bonus fee seront partagés entre les participants du round lors du Withdraw ou du Backdraw. En incitant à participer au round , il y’aura davantage de participants ce qui augmentera l’efficacité mixage.
 
-Les bonus fee sont connus et affichés au cours du round actif au fur et à mesure de leurs versements.
+Les bonus fee (total des bonus fee avant partage) sont connus et affichés au cours du round actif au fur et à mesure de leurs versements.
 
 
 ### J’ai reçu davantage d’Ether que ce que j’ai versé ! Est-ce normal ?
@@ -156,4 +162,3 @@ Les sources du smart contract et de la dapp sont disponibles sur github: https:/
 - L’application web est hébergée sur IPFS. L’IPFS ou InterPlanetary File System est un protocole pair à pair (p2p) de distribution de contenu adressable par hypermédia. Il permet de "stocker" des fichiers ou des arborescences de fichiers de manière décentralisée et permanente, et d’y accéder via un noeud ipfs ou via un navigateur web.
 
 - **Cette dapp est donc totalement "unstoppable" !**
-
