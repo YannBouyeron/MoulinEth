@@ -116,7 +116,6 @@ Vérifiez que:
 
 - Vous utilisez la bonne adresse: adresse de retrait en cas de Withdraw (round validé), adresse de dépôt en cas de Backdraw (round renversé).
 
-</br>
 
 ### Je n’ai pas fait de demande de retrait dans la limite de temps du round !
 
