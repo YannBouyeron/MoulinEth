@@ -8,7 +8,7 @@ Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSK1rtivan73iqFuaG2J66PujLabTD7TEC28gXmiSXePW
+Lien IPFS (dapp version 20/08/2020): https://ipfs.io/ipfs/Qmdgu14DrrLuHtiQoRiaCRGbmJw7CxrzWJaCzpuyfU2PPb
 
 
 
@@ -17,7 +17,7 @@ Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSK1rtivan73iqFuaG2J6
 
 - Vérifiez qu’un round est actif. Dans le cas contraire, cliquez sur **Init Round**.
 
-- Utilisez votre adresse Ethereum de dépôt pour déposer les Ether que vous souhaitez mixer: indiquez le montant en wei que vous souhaitez mixer, puis cliquez sur **Deposit**.
+- Utilisez votre adresse Ethereum de dépôt pour déposer les Ethers que vous souhaitez mixer: indiquez le montant en wei que vous souhaitez mixer, puis cliquez sur **Deposit**.
 
 - Notez bien l’ID du round auquel vous avez participé, et prenez connaissance de la date et de l’heure  à laquelle se termine le round.
 
@@ -43,17 +43,17 @@ Lien IPFS (dapp version 18/08/2020): https://ipfs.io/ipfs/QmSK1rtivan73iqFuaG2J6
 	
 - À la fin du round et après sa vérification, si le total des cautions de retraits est inférieur au total des dépôts, le montant non réclamé sera partagé (bonus) entre les participants; vous pourrez récupérer votre dépôt, votre caution de retrait et votre bonus en utilisant votre (ou vos) **adresse de retrait**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Withdraw**. 
 
-- À la fin du round et après sa vérification si le total des cautions de retraits est supérieur au total des dépôts, le round est renversé , un ou plusieurs participants ont essayé de récupérer des Ether qu’ils n’avaient pas déposés, ils perdent leurs cautions qui seront partagées (bonus) entre les autres participants. Vous pourrez récupérer votre  dépôt , votre caution de retrait et votre bonus en utilisant votre (ou vos) **adresse de dépôts**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Backdraw**. Vos Ether n’ont pas été mixés, mais le bonus vous dédommage en partie !
+- À la fin du round et après sa vérification si le total des cautions de retraits est supérieur au total des dépôts, le round est renversé , un ou plusieurs participants ont essayé de récupérer des Ethers qu’ils n’avaient pas déposés, ils perdent leurs cautions qui seront partagées (bonus) entre les autres participants. Vous pourrez récupérer votre  dépôt , votre caution de retrait et votre bonus en utilisant votre (ou vos) **adresse de dépôts**. Recherchez le round auquel vous avez participé dans la liste des rounds fermés, et cliquez sur **Backdraw**. Vos Ethers n’ont pas été mixés, mais le bonus vous dédommage en partie !
 	
 
 
-### Comment mon adresse de retrait peut-elle être "anonyme", si je dois déjà posséder des Ether dessus afin de verser la caution ?
+### Comment mon adresse de retrait peut-elle être "anonyme", si je dois déjà posséder des Ethers dessus afin de verser la caution ?
 
 - Créez une nouvelle adresse Ethereum.
 
 - Utilisez un faucet ou achetez une petite quantité de wei de manière anonyme.
 
-- Faites des rounds avec des montants de plus en plus importants pour disposer de suffisamment d’Ether "anonymes"... ce qui vous permettra de mixer de plus en plus d’Ether.
+- Faites des rounds avec des montants de plus en plus importants pour disposer de suffisamment d’Ethers "anonymes"... ce qui vous permettra de mixer de plus en plus d’Ethers.
 
 - Faites attention à ce que votre adresse de retrait n’ait aucun lien (transaction directe ou indirecte) avec votre adresse de dépôt.
 
@@ -68,13 +68,13 @@ Si le round est validé:
 
 - Vous récupérerez à l’issue du round votre caution multiplié par 2, plus le bonus.
 
-- Vous perdez donc un peu d’Ether , sauf si de nombreux utilisateurs font de même en versant eux aussi une caution inférieure à leur dépôt.
+- Vous perdez donc un peu d’Ethers , sauf si de nombreux utilisateurs font de même en versant eux aussi une caution inférieure à leur dépôt.
 
 Si le round est malgré tout renversé:
 
 - Vous récupérerez à l’issue du round votre dépôt multiplié par 2, plus le bonus. 
 
-- Vous gagnez donc un peu d’Ether.
+- Vous gagnez donc un peu d’Ethers.
 
 ### Pourquoi et comment vérifier un round ?
 
@@ -128,7 +128,7 @@ Les bonus correspondent aux dépôts non réclamés (dans le cas d’un round va
 Les bonus fee que n’importe qui peut verser en cliquant sur **Send Fee** sont des incitations à participer au round. Ces bonus fee seront partagés entre les participants du round lors du Withdraw ou du Backdraw. En incitant à participer au round , il y’aura davantage de participants ce qui augmentera l’efficacité mixage. Les bonus fee (total des bonus fee avant partage) sont connus et affichés au cours du round actif au fur et à mesure de leurs versements.
 
 
-### J’ai reçu davantage d’Ether que ce que j’ai versé ! Est-ce normal ?
+### J’ai reçu davantage d’Ethers que ce que j’ai versé ! Est-ce normal ?
 
 Oui, cela peut arriver. Ce sont des bonus qui correspondent soit à des dépôts non retirés, soit à des cautions de retraits versées sans avoir fait de dépôts , soit à des incitations à participer au round (bonus fee).
 
