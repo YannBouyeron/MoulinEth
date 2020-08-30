@@ -4,7 +4,7 @@ Unstoppable Ethereum Mixer 100% Decentralized 0% Fee 100% Free
 
 
 
-Tester sur Ropsten (Il vous faut un client Web3 tel que Metamask) : 
+Tester sur Kovan (Il vous faut un client Web3 tel que Metamask) : 
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
@@ -137,19 +137,19 @@ Oui, cela peut arriver. Ce sont des bonus qui correspondent soit à des dépôts
 
 Via un navigateur web compatible web3 (Metamask):
 
-- dapp (version de test sur ropsten): https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H/
+- dapp (version de test sur kovan): https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H/
 
 - dapp (mainnet): *Cette dapp n’est pas encore déployée sur le mainnet.*
 
 Via un noeud ipfs:
 
-- ipns hash (version de test sur ropsten): QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
+- ipns hash (version de test sur kovan): QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
 - ipns hash (mainnet): *Cette dapp n’est pas encore déployée sur le mainnet.*
 
 Adresse du smart contract Ethereum (Version de test sur Ropsten): 
 
-- [0xE2F2EF747d41204b3492AB342A48307857C07e77](https://ropsten.etherscan.io/address/0xe2f2ef747d41204b3492ab342a48307857c07e77)
+- [0xd45E019a99ACa231f5Ec9D8a498eD606Fad25FA4](https://kovan.etherscan.io/address/0xe2f2ef747d41204b3492ab342a48307857c07e77)
 
 Adresse du smart contract Ethereum (Mainnet): 
 
