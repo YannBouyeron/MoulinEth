@@ -8,7 +8,7 @@ Tester sur Kovan (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 20/08/2020): https://ipfs.io/ipfs/QmeuaTeWVfFi7x52RkPXc7sDzpAXsHzESCEo4qm1oK9YES
+Lien IPFS (dapp version 30/08/2020): https://ipfs.io/ipfs/QmTn3mhkoJNk1fgyMGop7PzaPbaFFhqeAaCVVEEg96piT9
 
 
 
