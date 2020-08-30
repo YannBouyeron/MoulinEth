@@ -147,7 +147,7 @@ Via un noeud ipfs:
 
 - ipns hash (mainnet): *Cette dapp n’est pas encore déployée sur le mainnet.*
 
-Adresse du smart contract Ethereum (Version de test sur Ropsten): 
+Adresse du smart contract Ethereum (Version de test sur Kovan): 
 
 - [0xd45E019a99ACa231f5Ec9D8a498eD606Fad25FA4](https://kovan.etherscan.io/address/0xd45E019a99ACa231f5Ec9D8a498eD606Fad25FA4)
 
