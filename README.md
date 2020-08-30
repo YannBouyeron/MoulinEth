@@ -8,7 +8,7 @@ Tester sur Kovan (Il vous faut un client Web3 tel que Metamask) :
 
 Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
 
-Lien IPFS (dapp version 20/08/2020): https://ipfs.io/ipfs/Qmdgu14DrrLuHtiQoRiaCRGbmJw7CxrzWJaCzpuyfU2PPb
+Lien IPFS (dapp version 20/08/2020): https://ipfs.io/ipfs/QmeuaTeWVfFi7x52RkPXc7sDzpAXsHzESCEo4qm1oK9YES
 
 
 
@@ -149,7 +149,7 @@ Via un noeud ipfs:
 
 Adresse du smart contract Ethereum (Version de test sur Ropsten): 
 
-- [0xd45E019a99ACa231f5Ec9D8a498eD606Fad25FA4](https://kovan.etherscan.io/address/0xe2f2ef747d41204b3492ab342a48307857c07e77)
+- [0xd45E019a99ACa231f5Ec9D8a498eD606Fad25FA4](https://kovan.etherscan.io/address/0xd45E019a99ACa231f5Ec9D8a498eD606Fad25FA4)
 
 Adresse du smart contract Ethereum (Mainnet): 
 
