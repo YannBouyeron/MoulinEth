@@ -4,11 +4,11 @@ Unstoppable Ethereum Mixer 100% Decentralized 0% Fee 100% Free
 
 
 
-Tester sur Kovan (Il vous faut un client Web3 tel que Metamask) : 
+Tester sur Kovan (avec Metamask) : 
 
-Lien IPNS: https://ipfs.io/ipns/QmQLV56ihsFxyyvp1HyXbamCNcwUDiBnPnbhuvUb83EF7H
+Lien IPNS: https://ipfs.io/ipns/k2k4r8k5n16yw27h2f8rommsymxe8t00hb2xq7jc9jaqsyr5bx2nkiy4
 
-Lien IPFS (dapp version 30/08/2020): https://ipfs.io/ipfs/QmTn3mhkoJNk1fgyMGop7PzaPbaFFhqeAaCVVEEg96piT9
+Lien IPFS (dapp version 21/02/2021): https://ipfs.io/ipfs/QmU6kYLXRS5Yuhub71aqRZPyjLR6n2c9asTWPg6teP8Wiu
 
 
 
